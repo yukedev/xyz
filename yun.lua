@@ -1,6 +1,3 @@
--- loadstring(game:HttpGet("https://gist.githubusercontent.com/Adel342/beed41a9f47d6ee0570ed470eb35c768/raw/29dc7388fc6b9d4efcb04f40992259c15bdb7a97/yun%2520v2"))()
--- ^ use this loadstring if it doesnt work
-
 repeat
     wait()
 until game:IsLoaded() and game.Players.LocalPlayer.Character:FindFirstChild("FULLY_LOADED_CHAR")
@@ -5265,7 +5262,7 @@ Info:Button {
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "xxwaag",
+                Title = "Yun",
                 Text = "Copied discord invite"
             }
         )
@@ -5278,7 +5275,7 @@ Info:Button {
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "xxwaag",
+                Title = "Yun",
                 Text = "Copied support discord tag"
             }
         )
@@ -5329,7 +5326,7 @@ WTRMARK:Toggle {
 
 WTRMARK:Box {
     Name = "Watermark Name",
-    Default = "XXWAAG FUCKER",
+    Default = "HalalGamingW",
     Placeholder = "name here",
     Type = "string",
     Flag = "WatermarkName",
